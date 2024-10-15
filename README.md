@@ -21,6 +21,9 @@ Verified the output waveform for various input combinations, confirming correct 
 
 -Extended the 2x2 multiplier design to a 4x4 multiplier using an array multiplication approach.
 The circuit was simulated, and output graphs were verified to be accurate.
+
+![image](https://github.com/user-attachments/assets/eb96acd6-9e12-4f74-be27-d807999b0a88)
+
 ### Technology
 - Process: GPDK180 (180 nm CMOS)
 - Tools: Cadence Virtuoso (schematic entry, simulation, layout)
