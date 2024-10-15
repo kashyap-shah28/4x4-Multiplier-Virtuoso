@@ -1,8 +1,26 @@
 # 4x4-Multiplier-Virtuoso
 
 ## Project Overview
-This project implements a standard array 4x4 multiplier using AND gates, and cmos28T mirror full adders. The design focuses on low-power optimization, leveraging GPDK180 technology with **multi-Vt** (multi-threshold) and **DVS** (Dynamic Voltage Scaling) techniques to be added further to achieve power efficiency. The multiplier will be verified through simulations for functionality, power, and timing analysis.
+This project implements a CMOS 4x4 Array Multiplier using fundamental logic components such as AND gates and 28-Transistor Mirror Full Adders. The focus of this design is to verify the correct functionality of the multiplier circuit without the inclusion of any low-power optimization techniques.
 
+The project progressed in phases, starting from the basic building blocks of AND gates and Full Adders, culminating in the creation of a functional 4x4 multiplier. The design has been verified using Cadence Virtuoso, and the output waveforms have been analyzed to confirm accuracy.
+
+
+Components Built:
+AND Gate:
+
+-Implemented basic CMOS AND gate using PMOS and NMOS transistors.
+CMOS 28T Mirror Full Adder:
+
+-Designed a Full Adder based on the 28-transistor mirror technique to achieve balanced performance for the carry and sum operations.
+2x2 Multiplier:
+
+-Built a basic 2x2 multiplier by combining the AND gates and Full Adders.
+Verified the output waveform for various input combinations, confirming correct multiplication results.
+4x4 Multiplier:
+
+-Extended the 2x2 multiplier design to a 4x4 multiplier using an array multiplication approach.
+The circuit was simulated, and output graphs were verified to be accurate.
 ### Technology
 - Process: GPDK180 (180 nm CMOS)
 - Tools: Cadence Virtuoso (schematic entry, simulation, layout)
